@@ -9,6 +9,7 @@ let mediaImg = document.querySelector(".media>img");
 let postal = document.querySelector(".postal");
 let finish = document.querySelector(".finish");
 let video = document.querySelector(".video");
+let music = document.querySelector(".music");
 
 startBtn.addEventListener("click", function () {
   container.classList.add("none");

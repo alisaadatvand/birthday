@@ -37,9 +37,10 @@
   animation-delay: 8000ms;
   overflow: hidden;
   h1{
-    width: 100%;
+    width: 65vw;
     text-align: center;
     font-family: iranYekan;
+    font-size: 20px;
   }
   &.active{
     display: block !important;

@@ -24,6 +24,7 @@
         align-items: center;
         gap: 16px;
         font-family: iranYekan;
+        text-align: center;
         .emoji{
             font-size: 40px;
         }

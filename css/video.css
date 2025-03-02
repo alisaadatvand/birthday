@@ -1,9 +1,23 @@
-.video {
+.video , .music {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
+  &.music{
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 20px;
+    h3{
+      width: 100%;
+      text-align: center;
+      font-family: iranYekan;
+      font-size: 14px;
+    }
+  }
   &.active {
     display: block !important;
   }
