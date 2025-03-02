@@ -56,7 +56,7 @@ startBtn.addEventListener("click", function () {
                 rightBtn.classList.remove("none");
                 rightBtn.addEventListener("click", function () {
                   media.classList.add("active");
-                  mediaImg.setAttribute("src", "../images/jedi.jpg");
+                  mediaImg.setAttribute("src", "./images/jedi.jpg");
                   question.innerHTML = "عه ، باشه پس خداحافظ برای همیشه";
                   rightBtn.classList.add("none");
                   leftBtn.classList.add("none");
@@ -91,7 +91,7 @@ startBtn.addEventListener("click", function () {
         media.classList.add("active");
         leftBtn.addEventListener("click", function () {
           media.classList.add("active");
-          mediaImg.setAttribute("src", "../images/pou.jpeg");
+          mediaImg.setAttribute("src", "./images/pou.jpeg");
           question.innerHTML = "پس تولدته :) ، نیاز شد تبریک بگم پس بهت";
           leftBtn.innerHTML = "بریم برای تبریک";
           leftBtn.addEventListener("click", function () {
@@ -109,7 +109,7 @@ startBtn.addEventListener("click", function () {
               rightBtn.classList.remove("none");
               rightBtn.addEventListener("click", function () {
                 media.classList.add("active");
-                mediaImg.setAttribute("src", "../images/jedi.jpg");
+                mediaImg.setAttribute("src", "./images/jedi.jpg");
                 question.innerHTML = "عه ، باشه پس خداحافظ برای همیشه";
                 rightBtn.classList.add("none");
                 leftBtn.classList.add("none");
@@ -171,7 +171,7 @@ startBtn.addEventListener("click", function () {
               rightBtn.classList.remove("none");
               rightBtn.addEventListener("click", function () {
                 media.classList.add("active");
-                mediaImg.setAttribute("src", "../images/jedi.jpg");
+                mediaImg.setAttribute("src", "./images/jedi.jpg");
                 question.innerHTML = "عه ، باشه پس خداحافظ برای همیشه";
                 rightBtn.classList.add("none");
                 leftBtn.classList.add("none");
@@ -205,7 +205,7 @@ startBtn.addEventListener("click", function () {
       rightBtn.classList.add("none");
       media.classList.add("active");
       leftBtn.addEventListener("click", function () {
-        mediaImg.setAttribute("src", "../images/pou.jpeg");
+        mediaImg.setAttribute("src", "./images/pou.jpeg");
         question.innerHTML = "پس تولدته :) ، نیاز شد تبریک بگم پس بهت";
         leftBtn.innerHTML = "بریم برای تبریک";
         leftBtn.addEventListener("click", function () {
@@ -223,7 +223,7 @@ startBtn.addEventListener("click", function () {
             rightBtn.classList.remove("none");
             rightBtn.addEventListener("click", function () {
               media.classList.add("active");
-              mediaImg.setAttribute("src", "../images/jedi.jpg");
+              mediaImg.setAttribute("src", "./images/jedi.jpg");
               question.innerHTML = "عه ، باشه پس خداحافظ برای همیشه";
               rightBtn.classList.add("none");
               leftBtn.classList.add("none");
