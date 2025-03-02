@@ -55,7 +55,8 @@ startBtn.addEventListener("click", function () {
                 rightBtn.innerHTML = "نه خوب نبود";
                 rightBtn.classList.remove("none");
                 rightBtn.addEventListener("click", function () {
-                  media.classList.remove("active");
+                  media.classList.add("active");
+                  mediaImg.setAttribute("src", "../images/jedi.jpg");
                   question.innerHTML = "عه ، باشه پس خداحافظ برای همیشه";
                   rightBtn.classList.add("none");
                   leftBtn.classList.add("none");
@@ -65,19 +66,19 @@ startBtn.addEventListener("click", function () {
                   }, 6000);
                 });
                 leftBtn.addEventListener("click", function () {
-                    modal.classList.add("active");
-                    media.classList.remove("active");
+                  modal.classList.add("active");
+                  media.classList.remove("active");
+                  postal.classList.remove("active");
+                  question.innerHTML =
+                    "ممنون از لطفت قابلی نداشت ، راستی یک فیلم هم برات دارم در پایان";
+                  rightBtn.classList.add("none");
+                  leftBtn.innerHTML = "مشاهده فیلم";
+                  leftBtn.addEventListener("click", function () {
+                    modal.classList.remove("active");
+                    video.classList.add("active");
                     postal.classList.remove("active");
-                    question.innerHTML =
-                      "ممنون از لطفت قابلی نداشت ، راستی یک فیلم هم برات دارم در پایان";
-                    rightBtn.classList.add("none");
-                    leftBtn.innerHTML = "مشاهده فیلم";
-                    leftBtn.addEventListener("click", function () {
-                      modal.classList.remove("active");
-                      video.classList.add("active");
-                      postal.classList.remove("active");
-                    });
                   });
+                });
               }, 10000);
             });
           });
