@@ -5,6 +5,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   display: none;
+  z-index: -1;
 
   &.active {
     display: block !important;
