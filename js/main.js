@@ -65,21 +65,21 @@ startBtn.addEventListener("click", function () {
                     finish.classList.add("active");
                   }, 6000);
                 });
-                leftBtn.addEventListener("click", function () {
-                  modal.classList.add("active");
-                  media.classList.remove("active");
-                  postal.classList.remove("active");
-                  question.innerHTML =
-                    "ممنون از لطفت قابلی نداشت ، راستی یک فیلم هم برات دارم در پایان";
-                  rightBtn.classList.add("none");
-                  leftBtn.innerHTML = "مشاهده فیلم";
-                  leftBtn.addEventListener("click", function () {
-                    modal.classList.remove("active");
-                    video.classList.add("active");
-                    postal.classList.remove("active");
-                  });
-                });
               }, 10000);
+              leftBtn.addEventListener("click", function () {
+                modal.classList.add("active");
+                media.classList.remove("active");
+                postal.classList.remove("active");
+                question.innerHTML =
+                  "ممنون از لطفت قابلی نداشت ، راستی یک فیلم هم برات دارم در پایان";
+                rightBtn.classList.add("none");
+                leftBtn.innerHTML = "مشاهده فیلم";
+                leftBtn.addEventListener("click", function () {
+                  modal.classList.remove("active");
+                  video.classList.add("active");
+                  postal.classList.remove("active");
+                });
+              });
             });
           });
         });
@@ -118,21 +118,21 @@ startBtn.addEventListener("click", function () {
                   finish.classList.add("active");
                 }, 6000);
               });
-              leftBtn.addEventListener("click", function () {
-                modal.classList.add("active");
-                media.classList.remove("active");
-                postal.classList.remove("active");
-                question.innerHTML =
-                  "ممنون از لطفت قابلی نداشت ، راستی یک فیلم هم برات دارم در پایان";
-                rightBtn.classList.add("none");
-                leftBtn.innerHTML = "مشاهده فیلم";
-                leftBtn.addEventListener("click", function () {
-                  modal.classList.remove("active");
-                  video.classList.add("active");
-                  postal.classList.remove("active");
-                });
-              });
             }, 10000);
+            leftBtn.addEventListener("click", function () {
+              modal.classList.add("active");
+              media.classList.remove("active");
+              postal.classList.remove("active");
+              question.innerHTML =
+                "ممنون از لطفت قابلی نداشت ، راستی یک فیلم هم برات دارم در پایان";
+              rightBtn.classList.add("none");
+              leftBtn.innerHTML = "مشاهده فیلم";
+              leftBtn.addEventListener("click", function () {
+                modal.classList.remove("active");
+                video.classList.add("active");
+                postal.classList.remove("active");
+              });
+            });
           });
         });
       });
@@ -180,21 +180,21 @@ startBtn.addEventListener("click", function () {
                   finish.classList.add("active");
                 }, 6000);
               });
-              leftBtn.addEventListener("click", function () {
-                modal.classList.add("active");
-                media.classList.remove("active");
-                postal.classList.remove("active");
-                question.innerHTML =
-                  "ممنون از لطفت قابلی نداشت ، راستی یک فیلم هم برات دارم در پایان";
-                rightBtn.classList.add("none");
-                leftBtn.innerHTML = "مشاهده فیلم";
-                leftBtn.addEventListener("click", function () {
-                  modal.classList.remove("active");
-                  video.classList.add("active");
-                  postal.classList.remove("active");
-                });
-              });
             }, 10000);
+            leftBtn.addEventListener("click", function () {
+              modal.classList.add("active");
+              media.classList.remove("active");
+              postal.classList.remove("active");
+              question.innerHTML =
+                "ممنون از لطفت قابلی نداشت ، راستی یک فیلم هم برات دارم در پایان";
+              rightBtn.classList.add("none");
+              leftBtn.innerHTML = "مشاهده فیلم";
+              leftBtn.addEventListener("click", function () {
+                modal.classList.remove("active");
+                video.classList.add("active");
+                postal.classList.remove("active");
+              });
+            });
           });
         });
       });
@@ -232,21 +232,21 @@ startBtn.addEventListener("click", function () {
                 finish.classList.add("active");
               }, 6000);
             });
-            leftBtn.addEventListener("click", function () {
-              modal.classList.add("active");
-              media.classList.remove("active");
-              postal.classList.remove("active");
-              question.innerHTML =
-                "ممنون از لطفت قابلی نداشت ، راستی یک فیلم هم برات دارم در پایان";
-              rightBtn.classList.add("none");
-              leftBtn.innerHTML = "مشاهده فیلم";
-              leftBtn.addEventListener("click", function () {
-                modal.classList.remove("active");
-                video.classList.add("active");
-                postal.classList.remove("active");
-              });
-            });
           }, 10000);
+          leftBtn.addEventListener("click", function () {
+            modal.classList.add("active");
+            media.classList.remove("active");
+            postal.classList.remove("active");
+            question.innerHTML =
+              "ممنون از لطفت قابلی نداشت ، راستی یک فیلم هم برات دارم در پایان";
+            rightBtn.classList.add("none");
+            leftBtn.innerHTML = "مشاهده فیلم";
+            leftBtn.addEventListener("click", function () {
+              modal.classList.remove("active");
+              video.classList.add("active");
+              postal.classList.remove("active");
+            });
+          });
         });
       });
     });
